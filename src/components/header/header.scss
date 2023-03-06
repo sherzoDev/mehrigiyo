@@ -1,0 +1,62 @@
+.backragund {
+    background: #DFEEE4;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    gap: 250px;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+    &__ul {
+        gap: 30px;
+    }
+
+    &__title {
+        font-family: Regular;
+    }
+
+    &__title:hover {
+        color: #53B175;
+        cursor: pointer;
+    }
+
+    &__title:active {
+        color: #AB7A19;
+    }
+
+    &__select {
+        background: #DFEEE4;
+        border: none;
+        outline: none;
+    }
+
+    &__home {
+        margin-top: 30px;
+    }
+
+    &_home {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        &_logo {
+            margin-left: 40px;
+        }
+
+        &_title {
+            margin-left: 180px;
+        }
+
+        &__title {
+            margin-left: 50px;
+        }
+
+        &_btn {
+            margin-left: 750px;
+        }
+    }
+}
