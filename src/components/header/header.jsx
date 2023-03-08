@@ -9,7 +9,7 @@ import LOGO from "../../assets/images/icons/LOGO.svg";
 import heart from "../../assets/images/icons/heart.svg";
 import korzinka from "../../assets/images/icons/korzinka.svg";
 
-function header() {
+function Homeheader() {
   return (
     <header>
       <section className="backragund">
@@ -88,4 +88,4 @@ function header() {
   );
 }
 
-export default header;
+export default Homeheader;
