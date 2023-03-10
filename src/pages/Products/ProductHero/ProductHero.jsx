@@ -18,10 +18,6 @@ import SmsHome from "../../../assets/images/icons/sms.svg";
 const form = document.querySelector("#selectform");
 
 const ProductHero = () => {
-  const resetFunc = () => {
-    form.reset();
-  };
-
   return (
     <>
       <section className="products__hero">
@@ -59,11 +55,7 @@ const ProductHero = () => {
                   <form id="selectform" className="p-hero__select-form">
                     <div className="reset__btn-box">
                       <img src={Reset} alt="" />
-                      <button
-                        onClick={resetFunc}
-                        type="reset"
-                        className="reset__btn"
-                      >
+                      <button type="reset" className="reset__btn">
                         Tozalash
                       </button>
                     </div>
