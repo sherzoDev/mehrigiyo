@@ -55,6 +55,8 @@ const ProductHero = () => {
                 <div className="p-hero__select">
                   <div className="p-hero__select-box">
                     <h3 className="p-hero__select-title">Kategoriyalar</h3>
+                  </div>
+                  <form id="selectform" className="p-hero__select-form">
                     <div className="reset__btn-box">
                       <img src={Reset} alt="" />
                       <button
@@ -65,8 +67,6 @@ const ProductHero = () => {
                         Tozalash
                       </button>
                     </div>
-                  </div>
-                  <form id="selectform" className="p-hero__select-form">
                     <label className="p-hero__select-label" htmlFor="checkbox">
                       <input id="checkbox" disabled checked type="checkbox" />
                       Hammasi
